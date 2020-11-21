@@ -1,10 +1,19 @@
 body {
+  margin: 0px;
   background-color: rgb(166, 255, 225);
 }
 h1 {
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
+  margin: 5px;
+}
+h3 {
+  margin: 5px 0px;
+}
+p {
+  text-align: center;
+  font-size: 25px;
 }
 .players_division {
   display: flex;
@@ -29,9 +38,39 @@ h1 {
 .play {
   background-color: rgb(123, 255, 211);
   font-weight: bold;
-  margin-top: 5%;
+
   font-size: 25px;
   padding: 1% 10%;
   box-shadow: 5px 5px grey;
-  margin-left: 37.8%;
+  position: absolute;
+  top: 90%;
+  left: 37%;
+}
+#newGame {
+  background-color: rgb(123, 255, 211);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 1% 10%;
+  box-shadow: 5px 5px grey;
+  position: absolute;
+  top: 50%;
+  left: 35.5%;
+}
+.mainnewgame {
+  text-align: center;
+}
+#noneDisplay {
+  display: none;
+}
+#player1Counter {
+  width: 20%;
+  height: 20%;
+  font-size: 35px;
+  margin-left: 40%;
+}
+#player2Counter {
+  width: 20%;
+  height: 20%;
+  font-size: 35px;
+  margin-left: 40%;
 }
